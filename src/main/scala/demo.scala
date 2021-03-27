@@ -12,50 +12,50 @@ object demo {
     val tpl = new Tuple3(1250, 5.10, "gruszka")
 
     //1.zad1
-    //loops(weekdaysList)
+    loops(weekdaysList)
 
     //1.zad2
-    //println(recur1(weekdaysList, weekdaysList.length))
-    //println(recur2(weekdaysList, weekdaysList.length))
+    println(recur1(weekdaysList, weekdaysList.length))
+    println(recur2(weekdaysList, weekdaysList.length))
 
     //1.zad3
-    //println(recur3(weekdaysList, weekdaysList.length, ""))
+    println(recur3(weekdaysList, weekdaysList.length, ""))
 
     //1.zad.4a
-    //fold(weekdaysList)
+    fold(weekdaysList)
 
     //1.zad.5
-    //println(productsMap.view.mapValues(_ * 0.9).toMap)
+    println(productsMap.view.mapValues(_ * 0.9).toMap)
 
     //1.zad.6
-    //writeTuple(tpl)
+    writeTuple(tpl)
 
     //1.zad.7
     //znajdz cenę owocy po kluczu
-    //println(productsMap.get("winogrona").getOrElse("owoc nie znaleziony"))
-    //println(productsMap.get("arbuz").getOrElse("owoc nie znaleziony"))
+    println(productsMap.get("winogrona").getOrElse("owoc nie znaleziony"))
+    println(productsMap.get("arbuz").getOrElse("owoc nie znaleziony"))
 
     //1.zad.8
-    //println(removeZero(numbers2))
+    println(removeZero(numbers2))
 
     //1.zad.9
-    //println(add1(numbers))
+    println(add1(numbers))
 
     //1.zad.10
-    //println(num(numbers))
+    println(num(numbers))
 
     //2.zad.1
-    /*
+
     println(weekDaysMatching("PONIEDZIALEK"))
     println(weekDaysMatching("wtorek"))
     println(weekDaysMatching("niedziela"))
     println(weekDaysMatching("sObOtA"))
     println(weekDaysMatching("xyz"))
 
-     */
+
 
     //2.zad.2
-    /*
+
     var konto = new KontoBankowe()
     konto.pokazStanKonta
     konto.wplata(200)
@@ -70,10 +70,10 @@ object demo {
     konto2.wyplata(150)
     konto2.pokazStanKonta
 
-     */
+
 
     //2.zad.3
-    /*
+
     var osoba1 = new Powitanie_Osoba("Patric", "Black")
     var osoba2 = new Powitanie_Osoba("Jimin", "Park")
     var osoba3 = new Powitanie_Osoba("Jackson", "Wang")
@@ -92,14 +92,14 @@ object demo {
     println(greetings(osoba7))
     println(greetings(osoba8))
 
-     */
+
 
     //2.zad.4
-    //multiply(sqrtfunc, 2)
-    //multiply(sqrtfunc, 4)
+    multiply(sqrtfunc, 2)
+    multiply(sqrtfunc, 4)
 
     //2.zad.5
-    /*
+
     var person1 = new Osoba() with Student
     println(person1.get_podatek())
 
@@ -118,7 +118,7 @@ object demo {
     person5.set_pensja(3500)
     println(person5.get_podatek()) //wyliczy podatek jak dla studenta - 0
 
-     */
+
 
 
 
