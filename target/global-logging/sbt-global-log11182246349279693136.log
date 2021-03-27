@@ -1,0 +1,11 @@
+[debug] > Exec(object demo {     def main(args: Array[String]): Unit = {          var message : String = "Hello world"          println(message)     } }, None, None)
+[error] Expected ID character
+[error] Not a valid command: object (similar: project, projects, set)
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected key
+[error] Not a valid key: object (similar: projectID, csrProject, projectInfo)
+[error] object demo {     def main(args: Array[String]): Unit = {          var message : String = "Hello world"          println(message)     } }
+[error]       ^
+[debug] > Exec(idea-shell, None, None)
