@@ -11,7 +11,7 @@ object demo {
     val numbers2 :List[Int] = List(-4,0,-3,-2,-1,0,1,2,3,0,4,5,0)
     val tpl = new Tuple3(1250, 5.10, "gruszka")
 
-    /*
+
 
     //1.zad1
     //println(loops1(weekdaysList))
@@ -123,7 +123,7 @@ object demo {
     person5.pensja = 4000
     println(person5.podatek) //wyliczy podatek jak dla studenta - 0
 
-*/
+
 
 
 
