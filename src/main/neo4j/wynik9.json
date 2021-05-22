@@ -1,0 +1,133 @@
+[
+  {
+    "m": {
+"identity": 7,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "connected": {
+"identity": 11,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Chris Evans",
+"born": 1981
+      }
+    }
+  },
+  {
+    "m": {
+"identity": 7,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "connected": {
+"identity": 12,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Samuel L. Jackson",
+"born": 1948
+      }
+    }
+  },
+  {
+    "m": {
+"identity": 7,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "connected": {
+"identity": 13,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    }
+  },
+  {
+    "m": {
+"identity": 7,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "connected": {
+"identity": 9,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Christopher Markus",
+"born": 1970
+      }
+    }
+  },
+  {
+    "m": {
+"identity": 7,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "connected": {
+"identity": 10,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Stephen McFeely"
+      }
+    }
+  },
+  {
+    "m": {
+"identity": 7,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "connected": {
+"identity": 8,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Joe Johnston",
+"born": 1950
+      }
+    }
+  }
+]

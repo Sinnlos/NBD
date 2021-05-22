@@ -1,0 +1,1815 @@
+MongoDB shell version v4.0.23
+connecting to: mongodb://127.0.0.1:27017/nbd?gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("c8f010b2-6835-4b3f-b208-a150d44337a0") }
+MongoDB server version: 4.0.23
+[
+	{
+		"_id" : "Afghanistan",
+		"value" : {
+			"minBmi" : 63.95,
+			"avgBmi" : 70.14631578947369,
+			"maxBmi" : 2036.89,
+			"count" : 38
+		}
+	},
+	{
+		"_id" : "Aland Islands",
+		"value" : {
+			"minBmi" : 66.52,
+			"avgBmi" : 72.78249999999998,
+			"maxBmi" : 81.82,
+			"count" : 4
+		}
+	},
+	{
+		"_id" : "Albania",
+		"value" : {
+			"minBmi" : 75.82,
+			"avgBmi" : 70.36973684210525,
+			"maxBmi" : 2598.2299999999996,
+			"count" : 38
+		}
+	},
+	{
+		"_id" : "Algeria",
+		"value" : {
+			"minBmi" : 66.5,
+			"avgBmi" : 66.5,
+			"maxBmi" : 66.5,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "American Samoa",
+		"value" : {
+			"minBmi" : 72.49,
+			"avgBmi" : 72.49,
+			"maxBmi" : 72.49,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Andorra",
+		"value" : {
+			"minBmi" : 66.3,
+			"avgBmi" : 70.61500000000001,
+			"maxBmi" : 74.93,
+			"count" : 2
+		}
+	},
+	{
+		"_id" : "Angola",
+		"value" : {
+			"minBmi" : 139.59,
+			"avgBmi" : 67.36,
+			"maxBmi" : 399.28999999999996,
+			"count" : 8
+		}
+	},
+	{
+		"_id" : "Argentina",
+		"value" : {
+			"minBmi" : 61.81,
+			"avgBmi" : 69.70170068027215,
+			"maxBmi" : 10113.980000000007,
+			"count" : 147
+		}
+	},
+	{
+		"_id" : "Armenia",
+		"value" : {
+			"minBmi" : 69,
+			"avgBmi" : 70.07487179487178,
+			"maxBmi" : 2663.9199999999996,
+			"count" : 39
+		}
+	},
+	{
+		"_id" : "Australia",
+		"value" : {
+			"minBmi" : 70.72,
+			"avgBmi" : 67.64,
+			"maxBmi" : 132.2,
+			"count" : 3
+		}
+	},
+	{
+		"_id" : "Austria",
+		"value" : {
+			"minBmi" : 61.48,
+			"avgBmi" : 69.95571428571428,
+			"maxBmi" : 428.21,
+			"count" : 7
+		}
+	},
+	{
+		"_id" : "Azerbaijan",
+		"value" : {
+			"minBmi" : 65.26,
+			"avgBmi" : 70.19375,
+			"maxBmi" : 1833.4899999999998,
+			"count" : 32
+		}
+	},
+	{
+		"_id" : "Bahamas",
+		"value" : {
+			"minBmi" : 63.47,
+			"avgBmi" : 70.438,
+			"maxBmi" : 217.43,
+			"count" : 5
+		}
+	},
+	{
+		"_id" : "Bangladesh",
+		"value" : {
+			"minBmi" : 80.62,
+			"avgBmi" : 72.96722222222222,
+			"maxBmi" : 1232.79,
+			"count" : 18
+		}
+	},
+	{
+		"_id" : "Barbados",
+		"value" : {
+			"minBmi" : 64.76,
+			"avgBmi" : 64.76,
+			"maxBmi" : 64.76,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Belarus",
+		"value" : {
+			"minBmi" : 61.96,
+			"avgBmi" : 70.18558139534883,
+			"maxBmi" : 2460.7399999999993,
+			"count" : 43
+		}
+	},
+	{
+		"_id" : "Belgium",
+		"value" : {
+			"minBmi" : 62.16,
+			"avgBmi" : 68.446,
+			"maxBmi" : 212.24,
+			"count" : 5
+		}
+	},
+	{
+		"_id" : "Belize",
+		"value" : {
+			"minBmi" : 70.67,
+			"avgBmi" : 69.4325,
+			"maxBmi" : 207.06,
+			"count" : 4
+		}
+	},
+	{
+		"_id" : "Benin",
+		"value" : {
+			"minBmi" : 64.25,
+			"avgBmi" : 73.86142857142856,
+			"maxBmi" : 230.51,
+			"count" : 7
+		}
+	},
+	{
+		"_id" : "Bhutan",
+		"value" : {
+			"minBmi" : 63.56,
+			"avgBmi" : 65.95166666666667,
+			"maxBmi" : 332.15,
+			"count" : 6
+		}
+	},
+	{
+		"_id" : "Bolivia",
+		"value" : {
+			"minBmi" : 63.85,
+			"avgBmi" : 69.96653846153845,
+			"maxBmi" : 1468.2399999999998,
+			"count" : 26
+		}
+	},
+	{
+		"_id" : "Bosnia and Herzegovina",
+		"value" : {
+			"minBmi" : 67.08,
+			"avgBmi" : 70.53875000000001,
+			"maxBmi" : 1903.0200000000002,
+			"count" : 32
+		}
+	},
+	{
+		"_id" : "Botswana",
+		"value" : {
+			"minBmi" : 62.9,
+			"avgBmi" : 69.92,
+			"maxBmi" : 705.6500000000001,
+			"count" : 12
+		}
+	},
+	{
+		"_id" : "Brazil",
+		"value" : {
+			"minBmi" : 68.56,
+			"avgBmi" : 69.91442666666664,
+			"maxBmi" : 25786.949999999993,
+			"count" : 375
+		}
+	},
+	{
+		"_id" : "Brunei",
+		"value" : {
+			"minBmi" : 75.25,
+			"avgBmi" : 75.25,
+			"maxBmi" : 75.25,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Bulgaria",
+		"value" : {
+			"minBmi" : 76.33,
+			"avgBmi" : 69.11382352941176,
+			"maxBmi" : 2273.54,
+			"count" : 34
+		}
+	},
+	{
+		"_id" : "Burkina Faso",
+		"value" : {
+			"minBmi" : 65.17,
+			"avgBmi" : 70.64099999999999,
+			"maxBmi" : 565.23,
+			"count" : 10
+		}
+	},
+	{
+		"_id" : "Burundi",
+		"value" : {
+			"minBmi" : 70.39,
+			"avgBmi" : 70.42,
+			"maxBmi" : 140.87,
+			"count" : 3
+		}
+	},
+	{
+		"_id" : "Cambodia",
+		"value" : {
+			"minBmi" : 69.66,
+			"avgBmi" : 70.835,
+			"maxBmi" : 142.47,
+			"count" : 6
+		}
+	},
+	{
+		"_id" : "Cameroon",
+		"value" : {
+			"minBmi" : 68.48,
+			"avgBmi" : 70.5445,
+			"maxBmi" : 1046.91,
+			"count" : 20
+		}
+	},
+	{
+		"_id" : "Canada",
+		"value" : {
+			"minBmi" : 59.26,
+			"avgBmi" : 70.40747967479673,
+			"maxBmi" : 6922.620000000001,
+			"count" : 123
+		}
+	},
+	{
+		"_id" : "Cape Verde",
+		"value" : {
+			"minBmi" : 71.55,
+			"avgBmi" : 70.235,
+			"maxBmi" : 213.42000000000002,
+			"count" : 6
+		}
+	},
+	{
+		"_id" : "Central African Republic",
+		"value" : {
+			"minBmi" : 198.65,
+			"avgBmi" : 67.78166666666668,
+			"maxBmi" : 208.04000000000002,
+			"count" : 6
+		}
+	},
+	{
+		"_id" : "Chad",
+		"value" : {
+			"minBmi" : 68.11,
+			"avgBmi" : 72.098,
+			"maxBmi" : 78.84,
+			"count" : 5
+		}
+	},
+	{
+		"_id" : "Chile",
+		"value" : {
+			"minBmi" : 70.16,
+			"avgBmi" : 69.69928571428571,
+			"maxBmi" : 1513.07,
+			"count" : 28
+		}
+	},
+	{
+		"_id" : "China",
+		"value" : {
+			"minBmi" : 62.06,
+			"avgBmi" : 70.16819923371648,
+			"maxBmi" : 125129.28999999998,
+			"count" : 1827
+		}
+	},
+	{
+		"_id" : "Colombia",
+		"value" : {
+			"minBmi" : 67.43,
+			"avgBmi" : 70.46266666666665,
+			"maxBmi" : 10212.839999999998,
+			"count" : 150
+		}
+	},
+	{
+		"_id" : "Comoros",
+		"value" : {
+			"minBmi" : 74.81,
+			"avgBmi" : 70.79400000000001,
+			"maxBmi" : 633.13,
+			"count" : 10
+		}
+	},
+	{
+		"_id" : "Costa Rica",
+		"value" : {
+			"minBmi" : 69.27,
+			"avgBmi" : 69.68249999999999,
+			"maxBmi" : 970.8799999999999,
+			"count" : 16
+		}
+	},
+	{
+		"_id" : "Croatia",
+		"value" : {
+			"minBmi" : 62.45,
+			"avgBmi" : 69.79049180327871,
+			"maxBmi" : 3488.7000000000007,
+			"count" : 61
+		}
+	},
+	{
+		"_id" : "Cuba",
+		"value" : {
+			"minBmi" : 61.51,
+			"avgBmi" : 70.48176470588236,
+			"maxBmi" : 1765.9,
+			"count" : 34
+		}
+	},
+	{
+		"_id" : "Cyprus",
+		"value" : {
+			"minBmi" : 73.6,
+			"avgBmi" : 70.372,
+			"maxBmi" : 142.81,
+			"count" : 5
+		}
+	},
+	{
+		"_id" : "Czech Republic",
+		"value" : {
+			"minBmi" : 64.73,
+			"avgBmi" : 69.68484472049688,
+			"maxBmi" : 10951.869999999999,
+			"count" : 161
+		}
+	},
+	{
+		"_id" : "Democratic Republic of the Congo",
+		"value" : {
+			"minBmi" : 65.1,
+			"avgBmi" : 72.26666666666668,
+			"maxBmi" : 929.8900000000001,
+			"count" : 18
+		}
+	},
+	{
+		"_id" : "Denmark",
+		"value" : {
+			"minBmi" : 66.91,
+			"avgBmi" : 67.93333333333334,
+			"maxBmi" : 477.53999999999996,
+			"count" : 9
+		}
+	},
+	{
+		"_id" : "Dominica",
+		"value" : {
+			"minBmi" : 74.43,
+			"avgBmi" : 74.43,
+			"maxBmi" : 74.43,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Dominican Republic",
+		"value" : {
+			"minBmi" : 68.54,
+			"avgBmi" : 68.53964285714285,
+			"maxBmi" : 1706.09,
+			"count" : 28
+		}
+	},
+	{
+		"_id" : "East Timor",
+		"value" : {
+			"minBmi" : 68.17,
+			"avgBmi" : 72.18249999999999,
+			"maxBmi" : 150.70999999999998,
+			"count" : 4
+		}
+	},
+	{
+		"_id" : "Ecuador",
+		"value" : {
+			"minBmi" : 69.43,
+			"avgBmi" : 70.24000000000001,
+			"maxBmi" : 566.07,
+			"count" : 15
+		}
+	},
+	{
+		"_id" : "Egypt",
+		"value" : {
+			"minBmi" : 69.3,
+			"avgBmi" : 69.16828571428572,
+			"maxBmi" : 2277.1699999999996,
+			"count" : 35
+		}
+	},
+	{
+		"_id" : "El Salvador",
+		"value" : {
+			"minBmi" : 66.13,
+			"avgBmi" : 68.7525,
+			"maxBmi" : 1033.91,
+			"count" : 16
+		}
+	},
+	{
+		"_id" : "Equatorial Guinea",
+		"value" : {
+			"minBmi" : 71.34,
+			"avgBmi" : 71.34,
+			"maxBmi" : 71.34,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Eritrea",
+		"value" : {
+			"minBmi" : 65.68,
+			"avgBmi" : 70.70666666666666,
+			"maxBmi" : 74.56,
+			"count" : 3
+		}
+	},
+	{
+		"_id" : "Estonia",
+		"value" : {
+			"minBmi" : 70.71,
+			"avgBmi" : 70.76363636363637,
+			"maxBmi" : 707.6899999999999,
+			"count" : 11
+		}
+	},
+	{
+		"_id" : "Ethiopia",
+		"value" : {
+			"minBmi" : 66.73,
+			"avgBmi" : 72.0076,
+			"maxBmi" : 1733.4599999999998,
+			"count" : 25
+		}
+	},
+	{
+		"_id" : "Fiji",
+		"value" : {
+			"minBmi" : 67.82,
+			"avgBmi" : 67.82,
+			"maxBmi" : 67.82,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Finland",
+		"value" : {
+			"minBmi" : 62.62,
+			"avgBmi" : 69.69145833333332,
+			"maxBmi" : 2521.87,
+			"count" : 48
+		}
+	},
+	{
+		"_id" : "France",
+		"value" : {
+			"minBmi" : 64,
+			"avgBmi" : 69.81388704318935,
+			"maxBmi" : 20742.289999999994,
+			"count" : 301
+		}
+	},
+	{
+		"_id" : "French Guiana",
+		"value" : {
+			"minBmi" : 62.83,
+			"avgBmi" : 66.405,
+			"maxBmi" : 69.98,
+			"count" : 2
+		}
+	},
+	{
+		"_id" : "French Polynesia",
+		"value" : {
+			"minBmi" : 61.53,
+			"avgBmi" : 69.378,
+			"maxBmi" : 75.94,
+			"count" : 5
+		}
+	},
+	{
+		"_id" : "Gabon",
+		"value" : {
+			"minBmi" : 75.28,
+			"avgBmi" : 78.55,
+			"maxBmi" : 81.82,
+			"count" : 2
+		}
+	},
+	{
+		"_id" : "Gambia",
+		"value" : {
+			"minBmi" : 134.73,
+			"avgBmi" : 67.41222222222223,
+			"maxBmi" : 471.98,
+			"count" : 9
+		}
+	},
+	{
+		"_id" : "Georgia",
+		"value" : {
+			"minBmi" : 427.47999999999996,
+			"avgBmi" : 68.98857142857142,
+			"maxBmi" : 538.3599999999999,
+			"count" : 14
+		}
+	},
+	{
+		"_id" : "Germany",
+		"value" : {
+			"minBmi" : 67.66,
+			"avgBmi" : 70.18200000000003,
+			"maxBmi" : 2037.8000000000009,
+			"count" : 30
+		}
+	},
+	{
+		"_id" : "Ghana",
+		"value" : {
+			"minBmi" : 64.04,
+			"avgBmi" : 69.47666666666666,
+			"maxBmi" : 561.25,
+			"count" : 9
+		}
+	},
+	{
+		"_id" : "Greece",
+		"value" : {
+			"minBmi" : 66.73,
+			"avgBmi" : 70.44847328244273,
+			"maxBmi" : 9086.279999999999,
+			"count" : 131
+		}
+	},
+	{
+		"_id" : "Greenland",
+		"value" : {
+			"minBmi" : 68.58,
+			"avgBmi" : 68.58,
+			"maxBmi" : 68.58,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Guadeloupe",
+		"value" : {
+			"minBmi" : 65.76,
+			"avgBmi" : 65.76,
+			"maxBmi" : 65.76,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Guam",
+		"value" : {
+			"minBmi" : 76.75,
+			"avgBmi" : 70.34666666666668,
+			"maxBmi" : 134.29000000000002,
+			"count" : 3
+		}
+	},
+	{
+		"_id" : "Guatemala",
+		"value" : {
+			"minBmi" : 66.58,
+			"avgBmi" : 69.77555555555557,
+			"maxBmi" : 1948.0700000000002,
+			"count" : 36
+		}
+	},
+	{
+		"_id" : "Guinea",
+		"value" : {
+			"minBmi" : 60.16,
+			"avgBmi" : 68.97375,
+			"maxBmi" : 280.51,
+			"count" : 8
+		}
+	},
+	{
+		"_id" : "Guinea-Bissau",
+		"value" : {
+			"minBmi" : 70.76,
+			"avgBmi" : 72.05,
+			"maxBmi" : 73.18,
+			"count" : 3
+		}
+	},
+	{
+		"_id" : "Guyana",
+		"value" : {
+			"minBmi" : 67.51,
+			"avgBmi" : 71.31,
+			"maxBmi" : 75.11,
+			"count" : 2
+		}
+	},
+	{
+		"_id" : "Haiti",
+		"value" : {
+			"minBmi" : 65.5,
+			"avgBmi" : 71.06272727272727,
+			"maxBmi" : 642.58,
+			"count" : 11
+		}
+	},
+	{
+		"_id" : "Honduras",
+		"value" : {
+			"minBmi" : 55.98,
+			"avgBmi" : 70.08921052631578,
+			"maxBmi" : 2311.41,
+			"count" : 38
+		}
+	},
+	{
+		"_id" : "Hong Kong",
+		"value" : {
+			"minBmi" : 76.71,
+			"avgBmi" : 76.71,
+			"maxBmi" : 76.71,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Hungary",
+		"value" : {
+			"minBmi" : 72.41,
+			"avgBmi" : 72.96,
+			"maxBmi" : 365.35,
+			"count" : 6
+		}
+	},
+	{
+		"_id" : "Iceland",
+		"value" : {
+			"minBmi" : 67.91,
+			"avgBmi" : 72.27166666666666,
+			"maxBmi" : 365.71999999999997,
+			"count" : 6
+		}
+	},
+	{
+		"_id" : "Indonesia",
+		"value" : {
+			"minBmi" : 60.94,
+			"avgBmi" : 70.1299433962263,
+			"maxBmi" : 72757.52999999987,
+			"count" : 1060
+		}
+	},
+	{
+		"_id" : "Iran",
+		"value" : {
+			"minBmi" : 66.78,
+			"avgBmi" : 71.01621621621621,
+			"maxBmi" : 2425.5699999999993,
+			"count" : 37
+		}
+	},
+	{
+		"_id" : "Iraq",
+		"value" : {
+			"minBmi" : 138.37,
+			"avgBmi" : 67.44833333333332,
+			"maxBmi" : 671.0099999999999,
+			"count" : 12
+		}
+	},
+	{
+		"_id" : "Ireland",
+		"value" : {
+			"minBmi" : 61.13,
+			"avgBmi" : 71.22162162162162,
+			"maxBmi" : 2347.18,
+			"count" : 37
+		}
+	},
+	{
+		"_id" : "Israel",
+		"value" : {
+			"minBmi" : 64.64,
+			"avgBmi" : 72.08363636363637,
+			"maxBmi" : 1455.03,
+			"count" : 22
+		}
+	},
+	{
+		"_id" : "Italy",
+		"value" : {
+			"minBmi" : 68.53,
+			"avgBmi" : 71.26588235294116,
+			"maxBmi" : 1142.9899999999998,
+			"count" : 17
+		}
+	},
+	{
+		"_id" : "Ivory Coast",
+		"value" : {
+			"minBmi" : 76.8,
+			"avgBmi" : 69.85266666666668,
+			"maxBmi" : 970.9900000000002,
+			"count" : 15
+		}
+	},
+	{
+		"_id" : "Jamaica",
+		"value" : {
+			"minBmi" : 69.16,
+			"avgBmi" : 70.581,
+			"maxBmi" : 565.07,
+			"count" : 10
+		}
+	},
+	{
+		"_id" : "Japan",
+		"value" : {
+			"minBmi" : 65.38,
+			"avgBmi" : 69.88011111111103,
+			"maxBmi" : 12442.659999999989,
+			"count" : 180
+		}
+	},
+	{
+		"_id" : "Jordan",
+		"value" : {
+			"minBmi" : 67.42,
+			"avgBmi" : 71.505,
+			"maxBmi" : 430.04999999999995,
+			"count" : 8
+		}
+	},
+	{
+		"_id" : "Kazakhstan",
+		"value" : {
+			"minBmi" : 53.73,
+			"avgBmi" : 70.27758620689654,
+			"maxBmi" : 1277.19,
+			"count" : 29
+		}
+	},
+	{
+		"_id" : "Kenya",
+		"value" : {
+			"minBmi" : 80.32,
+			"avgBmi" : 70.18238095238095,
+			"maxBmi" : 1393.51,
+			"count" : 21
+		}
+	},
+	{
+		"_id" : "Kiribati",
+		"value" : {
+			"minBmi" : 65.88,
+			"avgBmi" : 65.88,
+			"maxBmi" : 65.88,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Kosovo",
+		"value" : {
+			"minBmi" : 62.62,
+			"avgBmi" : 67.56833333333333,
+			"maxBmi" : 201.21,
+			"count" : 6
+		}
+	},
+	{
+		"_id" : "Kuwait",
+		"value" : {
+			"minBmi" : 72.81,
+			"avgBmi" : 70.38857142857142,
+			"maxBmi" : 419.90999999999997,
+			"count" : 7
+		}
+	},
+	{
+		"_id" : "Kyrgyzstan",
+		"value" : {
+			"minBmi" : 224.77000000000004,
+			"avgBmi" : 67.61062500000001,
+			"maxBmi" : 857.0000000000001,
+			"count" : 16
+		}
+	},
+	{
+		"_id" : "Laos",
+		"value" : {
+			"minBmi" : 64.64,
+			"avgBmi" : 69.5442857142857,
+			"maxBmi" : 265.64,
+			"count" : 7
+		}
+	},
+	{
+		"_id" : "Latvia",
+		"value" : {
+			"minBmi" : 437.83,
+			"avgBmi" : 71.81214285714286,
+			"maxBmi" : 567.5400000000001,
+			"count" : 14
+		}
+	},
+	{
+		"_id" : "Lebanon",
+		"value" : {
+			"minBmi" : 65.38,
+			"avgBmi" : 70.00833333333334,
+			"maxBmi" : 145.38,
+			"count" : 6
+		}
+	},
+	{
+		"_id" : "Lesotho",
+		"value" : {
+			"minBmi" : 67.9,
+			"avgBmi" : 70.87666666666667,
+			"maxBmi" : 76,
+			"count" : 3
+		}
+	},
+	{
+		"_id" : "Liberia",
+		"value" : {
+			"minBmi" : 72.02,
+			"avgBmi" : 71.73333333333333,
+			"maxBmi" : 358.38,
+			"count" : 6
+		}
+	},
+	{
+		"_id" : "Libya",
+		"value" : {
+			"minBmi" : 69.39,
+			"avgBmi" : 69.13000000000001,
+			"maxBmi" : 623.3000000000001,
+			"count" : 13
+		}
+	},
+	{
+		"_id" : "Lithuania",
+		"value" : {
+			"minBmi" : 65.11,
+			"avgBmi" : 69.37842105263158,
+			"maxBmi" : 1043.44,
+			"count" : 19
+		}
+	},
+	{
+		"_id" : "Luxembourg",
+		"value" : {
+			"minBmi" : 439.35,
+			"avgBmi" : 70.35105263157895,
+			"maxBmi" : 897.3200000000002,
+			"count" : 19
+		}
+	},
+	{
+		"_id" : "Macao",
+		"value" : {
+			"minBmi" : 64.37,
+			"avgBmi" : 64.37,
+			"maxBmi" : 64.37,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Macedonia",
+		"value" : {
+			"minBmi" : 63.76,
+			"avgBmi" : 69.72,
+			"maxBmi" : 1956.6100000000001,
+			"count" : 30
+		}
+	},
+	{
+		"_id" : "Madagascar",
+		"value" : {
+			"minBmi" : 61.36,
+			"avgBmi" : 69.43900000000001,
+			"maxBmi" : 1264.93,
+			"count" : 30
+		}
+	},
+	{
+		"_id" : "Malawi",
+		"value" : {
+			"minBmi" : 64.56,
+			"avgBmi" : 71.21799999999999,
+			"maxBmi" : 82.13,
+			"count" : 5
+		}
+	},
+	{
+		"_id" : "Malaysia",
+		"value" : {
+			"minBmi" : 67.13,
+			"avgBmi" : 70.61658536585367,
+			"maxBmi" : 2755.1800000000003,
+			"count" : 41
+		}
+	},
+	{
+		"_id" : "Maldives",
+		"value" : {
+			"minBmi" : 63.06,
+			"avgBmi" : 71.19200000000001,
+			"maxBmi" : 220.87,
+			"count" : 5
+		}
+	},
+	{
+		"_id" : "Mali",
+		"value" : {
+			"minBmi" : 63.74,
+			"avgBmi" : 68.37666666666665,
+			"maxBmi" : 756.7799999999999,
+			"count" : 12
+		}
+	},
+	{
+		"_id" : "Malta",
+		"value" : {
+			"minBmi" : 66.75,
+			"avgBmi" : 69.19500000000001,
+			"maxBmi" : 819.28,
+			"count" : 14
+		}
+	},
+	{
+		"_id" : "Marshall Islands",
+		"value" : {
+			"minBmi" : 60.33,
+			"avgBmi" : 67.14333333333333,
+			"maxBmi" : 73.76,
+			"count" : 3
+		}
+	},
+	{
+		"_id" : "Martinique",
+		"value" : {
+			"minBmi" : 70.73,
+			"avgBmi" : 70.73,
+			"maxBmi" : 70.73,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Mauritania",
+		"value" : {
+			"minBmi" : 65.71,
+			"avgBmi" : 66.78,
+			"maxBmi" : 67.85,
+			"count" : 2
+		}
+	},
+	{
+		"_id" : "Mauritius",
+		"value" : {
+			"minBmi" : 64.27,
+			"avgBmi" : 66.87692307692308,
+			"maxBmi" : 805.1300000000001,
+			"count" : 13
+		}
+	},
+	{
+		"_id" : "Mexico",
+		"value" : {
+			"minBmi" : 62.14,
+			"avgBmi" : 69.86044444444444,
+			"maxBmi" : 5238.7,
+			"count" : 90
+		}
+	},
+	{
+		"_id" : "Micronesia",
+		"value" : {
+			"minBmi" : 71.65,
+			"avgBmi" : 70.85499999999999,
+			"maxBmi" : 138.38,
+			"count" : 4
+		}
+	},
+	{
+		"_id" : "Moldova",
+		"value" : {
+			"minBmi" : 66.33,
+			"avgBmi" : 69.80857142857143,
+			"maxBmi" : 841.1199999999999,
+			"count" : 14
+		}
+	},
+	{
+		"_id" : "Monaco",
+		"value" : {
+			"minBmi" : 79.81,
+			"avgBmi" : 79.81,
+			"maxBmi" : 79.81,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Mongolia",
+		"value" : {
+			"minBmi" : 64.71,
+			"avgBmi" : 69.0264285714286,
+			"maxBmi" : 2760.540000000001,
+			"count" : 42
+		}
+	},
+	{
+		"_id" : "Montenegro",
+		"value" : {
+			"minBmi" : 68.66,
+			"avgBmi" : 71.07,
+			"maxBmi" : 570.97,
+			"count" : 9
+		}
+	},
+	{
+		"_id" : "Morocco",
+		"value" : {
+			"minBmi" : 59.67,
+			"avgBmi" : 69.68058823529412,
+			"maxBmi" : 1956.9,
+			"count" : 34
+		}
+	},
+	{
+		"_id" : "Mozambique",
+		"value" : {
+			"minBmi" : 66.85,
+			"avgBmi" : 69.44166666666666,
+			"maxBmi" : 210.28,
+			"count" : 6
+		}
+	},
+	{
+		"_id" : "Myanmar",
+		"value" : {
+			"minBmi" : 66.69,
+			"avgBmi" : 70.75227272727274,
+			"maxBmi" : 1489.8600000000001,
+			"count" : 22
+		}
+	},
+	{
+		"_id" : "Namibia",
+		"value" : {
+			"minBmi" : 67.86,
+			"avgBmi" : 71.564,
+			"maxBmi" : 75.21,
+			"count" : 5
+		}
+	},
+	{
+		"_id" : "Nauru",
+		"value" : {
+			"minBmi" : 63.32,
+			"avgBmi" : 63.32,
+			"maxBmi" : 63.32,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Nepal",
+		"value" : {
+			"minBmi" : 68.49,
+			"avgBmi" : 70.63250000000001,
+			"maxBmi" : 1061.63,
+			"count" : 16
+		}
+	},
+	{
+		"_id" : "Netherlands",
+		"value" : {
+			"minBmi" : 66.11,
+			"avgBmi" : 69.75000000000001,
+			"maxBmi" : 2235.6400000000003,
+			"count" : 33
+		}
+	},
+	{
+		"_id" : "New Caledonia",
+		"value" : {
+			"minBmi" : 61.27,
+			"avgBmi" : 66.34,
+			"maxBmi" : 71.41,
+			"count" : 2
+		}
+	},
+	{
+		"_id" : "New Zealand",
+		"value" : {
+			"minBmi" : 59.81,
+			"avgBmi" : 71.56375,
+			"maxBmi" : 786.57,
+			"count" : 16
+		}
+	},
+	{
+		"_id" : "Nicaragua",
+		"value" : {
+			"minBmi" : 65.38,
+			"avgBmi" : 68.62799999999999,
+			"maxBmi" : 813.1199999999999,
+			"count" : 15
+		}
+	},
+	{
+		"_id" : "Niger",
+		"value" : {
+			"minBmi" : 141.57999999999998,
+			"avgBmi" : 71.7125,
+			"maxBmi" : 285.64,
+			"count" : 8
+		}
+	},
+	{
+		"_id" : "Nigeria",
+		"value" : {
+			"minBmi" : 60.56,
+			"avgBmi" : 69.8147126436782,
+			"maxBmi" : 4889.000000000002,
+			"count" : 87
+		}
+	},
+	{
+		"_id" : "North Korea",
+		"value" : {
+			"minBmi" : 71.71,
+			"avgBmi" : 71.30153846153847,
+			"maxBmi" : 855.2100000000002,
+			"count" : 13
+		}
+	},
+	{
+		"_id" : "Northern Mariana Islands",
+		"value" : {
+			"minBmi" : 75.01,
+			"avgBmi" : 75.01,
+			"maxBmi" : 75.01,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Norway",
+		"value" : {
+			"minBmi" : 68.7,
+			"avgBmi" : 72.85605263157893,
+			"maxBmi" : 2699.8299999999995,
+			"count" : 38
+		}
+	},
+	{
+		"_id" : "Oman",
+		"value" : {
+			"minBmi" : 70.58,
+			"avgBmi" : 72.77999999999999,
+			"maxBmi" : 147.76,
+			"count" : 3
+		}
+	},
+	{
+		"_id" : "Pakistan",
+		"value" : {
+			"minBmi" : 65.82,
+			"avgBmi" : 70.11354166666668,
+			"maxBmi" : 3299.63,
+			"count" : 48
+		}
+	},
+	{
+		"_id" : "Palau",
+		"value" : {
+			"minBmi" : 73.25,
+			"avgBmi" : 75.83500000000001,
+			"maxBmi" : 78.42,
+			"count" : 2
+		}
+	},
+	{
+		"_id" : "Palestinian Territory",
+		"value" : {
+			"minBmi" : 66.99,
+			"avgBmi" : 70.46,
+			"maxBmi" : 1964.3400000000001,
+			"count" : 37
+		}
+	},
+	{
+		"_id" : "Panama",
+		"value" : {
+			"minBmi" : 69.25,
+			"avgBmi" : 71.54384615384616,
+			"maxBmi" : 1790.89,
+			"count" : 26
+		}
+	},
+	{
+		"_id" : "Papua New Guinea",
+		"value" : {
+			"minBmi" : 63.66,
+			"avgBmi" : 68.825,
+			"maxBmi" : 136.88,
+			"count" : 4
+		}
+	},
+	{
+		"_id" : "Paraguay",
+		"value" : {
+			"minBmi" : 64.17,
+			"avgBmi" : 69.49176470588236,
+			"maxBmi" : 1050.63,
+			"count" : 17
+		}
+	},
+	{
+		"_id" : "Peru",
+		"value" : {
+			"minBmi" : 62.27,
+			"avgBmi" : 69.63372413793101,
+			"maxBmi" : 9766.869999999995,
+			"count" : 145
+		}
+	},
+	{
+		"_id" : "Philippines",
+		"value" : {
+			"minBmi" : 60.03,
+			"avgBmi" : 69.95909266409272,
+			"maxBmi" : 35068.16000000003,
+			"count" : 518
+		}
+	},
+	{
+		"_id" : "Poland",
+		"value" : {
+			"minBmi" : 59.62,
+			"avgBmi" : 69.96126934984522,
+			"maxBmi" : 22323.32000000001,
+			"count" : 323
+		}
+	},
+	{
+		"_id" : "Portugal",
+		"value" : {
+			"minBmi" : 62.49,
+			"avgBmi" : 70.04238709677415,
+			"maxBmi" : 21577.879999999983,
+			"count" : 310
+		}
+	},
+	{
+		"_id" : "Puerto Rico",
+		"value" : {
+			"minBmi" : 75.52,
+			"avgBmi" : 72.38333333333333,
+			"maxBmi" : 141.63,
+			"count" : 3
+		}
+	},
+	{
+		"_id" : "Qatar",
+		"value" : {
+			"minBmi" : 66.34,
+			"avgBmi" : 68.795,
+			"maxBmi" : 71.25,
+			"count" : 2
+		}
+	},
+	{
+		"_id" : "Republic of the Congo",
+		"value" : {
+			"minBmi" : 59.71,
+			"avgBmi" : 68.60666666666667,
+			"maxBmi" : 74.09,
+			"count" : 3
+		}
+	},
+	{
+		"_id" : "Reunion",
+		"value" : {
+			"minBmi" : 66.33,
+			"avgBmi" : 72.90599999999999,
+			"maxBmi" : 225.39999999999998,
+			"count" : 5
+		}
+	},
+	{
+		"_id" : "Russia",
+		"value" : {
+			"minBmi" : 59.25,
+			"avgBmi" : 69.92404362416113,
+			"maxBmi" : 40990.410000000025,
+			"count" : 596
+		}
+	},
+	{
+		"_id" : "Rwanda",
+		"value" : {
+			"minBmi" : 66.6,
+			"avgBmi" : 68.06,
+			"maxBmi" : 137.58,
+			"count" : 3
+		}
+	},
+	{
+		"_id" : "Saint Kitts and Nevis",
+		"value" : {
+			"minBmi" : 69.56,
+			"avgBmi" : 71.4975,
+			"maxBmi" : 144.13,
+			"count" : 4
+		}
+	},
+	{
+		"_id" : "Saint Lucia",
+		"value" : {
+			"minBmi" : 66.73,
+			"avgBmi" : 70.75999999999999,
+			"maxBmi" : 73.09,
+			"count" : 3
+		}
+	},
+	{
+		"_id" : "Samoa",
+		"value" : {
+			"minBmi" : 67.59,
+			"avgBmi" : 67.59,
+			"maxBmi" : 67.59,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Saudi Arabia",
+		"value" : {
+			"minBmi" : 65.11,
+			"avgBmi" : 71.17625,
+			"maxBmi" : 354.46,
+			"count" : 8
+		}
+	},
+	{
+		"_id" : "Senegal",
+		"value" : {
+			"minBmi" : 68.61,
+			"avgBmi" : 70.55888888888889,
+			"maxBmi" : 349.48,
+			"count" : 9
+		}
+	},
+	{
+		"_id" : "Serbia",
+		"value" : {
+			"minBmi" : 64.01,
+			"avgBmi" : 69.29034482758622,
+			"maxBmi" : 3808.870000000001,
+			"count" : 58
+		}
+	},
+	{
+		"_id" : "Seychelles",
+		"value" : {
+			"minBmi" : 66.81,
+			"avgBmi" : 66.81,
+			"maxBmi" : 66.81,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Sierra Leone",
+		"value" : {
+			"minBmi" : 68,
+			"avgBmi" : 70.24600000000001,
+			"maxBmi" : 354.0400000000001,
+			"count" : 10
+		}
+	},
+	{
+		"_id" : "Sint Maarten",
+		"value" : {
+			"minBmi" : 69.75,
+			"avgBmi" : 70.74000000000001,
+			"maxBmi" : 71.73,
+			"count" : 2
+		}
+	},
+	{
+		"_id" : "Slovakia",
+		"value" : {
+			"minBmi" : 53.25,
+			"avgBmi" : 53.25,
+			"maxBmi" : 53.25,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Slovenia",
+		"value" : {
+			"minBmi" : 70.94,
+			"avgBmi" : 70.75157894736842,
+			"maxBmi" : 2317.87,
+			"count" : 38
+		}
+	},
+	{
+		"_id" : "Somalia",
+		"value" : {
+			"minBmi" : 67.9,
+			"avgBmi" : 67.9,
+			"maxBmi" : 67.9,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "South Africa",
+		"value" : {
+			"minBmi" : 62.29,
+			"avgBmi" : 70.66395833333333,
+			"maxBmi" : 2918.09,
+			"count" : 48
+		}
+	},
+	{
+		"_id" : "South Korea",
+		"value" : {
+			"minBmi" : 69.15,
+			"avgBmi" : 69.45536585365855,
+			"maxBmi" : 2778.5200000000004,
+			"count" : 41
+		}
+	},
+	{
+		"_id" : "South Sudan",
+		"value" : {
+			"minBmi" : 64.1,
+			"avgBmi" : 64.1,
+			"maxBmi" : 64.1,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Spain",
+		"value" : {
+			"minBmi" : 68.12,
+			"avgBmi" : 70.90733333333334,
+			"maxBmi" : 995.4900000000001,
+			"count" : 15
+		}
+	},
+	{
+		"_id" : "Sri Lanka",
+		"value" : {
+			"minBmi" : 215.62000000000003,
+			"avgBmi" : 73.75555555555555,
+			"maxBmi" : 448.17999999999995,
+			"count" : 9
+		}
+	},
+	{
+		"_id" : "Sudan",
+		"value" : {
+			"minBmi" : 70.22,
+			"avgBmi" : 70.88749999999999,
+			"maxBmi" : 350.05999999999995,
+			"count" : 8
+		}
+	},
+	{
+		"_id" : "Suriname",
+		"value" : {
+			"minBmi" : 73.18,
+			"avgBmi" : 73.18,
+			"maxBmi" : 73.18,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Swaziland",
+		"value" : {
+			"minBmi" : 58.47,
+			"avgBmi" : 58.47,
+			"maxBmi" : 58.47,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Sweden",
+		"value" : {
+			"minBmi" : 61.75,
+			"avgBmi" : 70.30799999999998,
+			"maxBmi" : 18008.449999999993,
+			"count" : 260
+		}
+	},
+	{
+		"_id" : "Switzerland",
+		"value" : {
+			"minBmi" : 66.51,
+			"avgBmi" : 71.98750000000001,
+			"maxBmi" : 77.93,
+			"count" : 4
+		}
+	},
+	{
+		"_id" : "Syria",
+		"value" : {
+			"minBmi" : 67.85,
+			"avgBmi" : 70.68052631578945,
+			"maxBmi" : 2332.1499999999996,
+			"count" : 38
+		}
+	},
+	{
+		"_id" : "Taiwan",
+		"value" : {
+			"minBmi" : 69.84,
+			"avgBmi" : 71.21199999999999,
+			"maxBmi" : 211.16999999999996,
+			"count" : 5
+		}
+	},
+	{
+		"_id" : "Tajikistan",
+		"value" : {
+			"minBmi" : 68.56,
+			"avgBmi" : 68.00909090909092,
+			"maxBmi" : 679.5400000000001,
+			"count" : 11
+		}
+	},
+	{
+		"_id" : "Tanzania",
+		"value" : {
+			"minBmi" : 65.77,
+			"avgBmi" : 71.37806451612903,
+			"maxBmi" : 1859.21,
+			"count" : 31
+		}
+	},
+	{
+		"_id" : "Thailand",
+		"value" : {
+			"minBmi" : 68.21,
+			"avgBmi" : 69.27087248322147,
+			"maxBmi" : 10038.88,
+			"count" : 149
+		}
+	},
+	{
+		"_id" : "Togo",
+		"value" : {
+			"minBmi" : 63.43,
+			"avgBmi" : 69.096,
+			"maxBmi" : 282.05,
+			"count" : 5
+		}
+	},
+	{
+		"_id" : "Tonga",
+		"value" : {
+			"minBmi" : 68.81,
+			"avgBmi" : 68.81,
+			"maxBmi" : 68.81,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Trinidad and Tobago",
+		"value" : {
+			"minBmi" : 69.92,
+			"avgBmi" : 71.13499999999999,
+			"maxBmi" : 141.48,
+			"count" : 4
+		}
+	},
+	{
+		"_id" : "Tunisia",
+		"value" : {
+			"minBmi" : 708.3799999999999,
+			"avgBmi" : 69.02724137931035,
+			"maxBmi" : 1293.4100000000003,
+			"count" : 29
+		}
+	},
+	{
+		"_id" : "Turkey",
+		"value" : {
+			"minBmi" : 69.58,
+			"avgBmi" : 67.12333333333333,
+			"maxBmi" : 131.79000000000002,
+			"count" : 3
+		}
+	},
+	{
+		"_id" : "Turkmenistan",
+		"value" : {
+			"minBmi" : 65.18,
+			"avgBmi" : 69.05799999999999,
+			"maxBmi" : 625.4,
+			"count" : 10
+		}
+	},
+	{
+		"_id" : "Tuvalu",
+		"value" : {
+			"minBmi" : 66.95,
+			"avgBmi" : 66.95,
+			"maxBmi" : 66.95,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Uganda",
+		"value" : {
+			"minBmi" : 67.71,
+			"avgBmi" : 69.47636363636363,
+			"maxBmi" : 1460.7699999999998,
+			"count" : 22
+		}
+	},
+	{
+		"_id" : "Ukraine",
+		"value" : {
+			"minBmi" : 65.85,
+			"avgBmi" : 69.50646341463413,
+			"maxBmi" : 11333.209999999997,
+			"count" : 164
+		}
+	},
+	{
+		"_id" : "United Arab Emirates",
+		"value" : {
+			"minBmi" : 66.57,
+			"avgBmi" : 67.03,
+			"maxBmi" : 67.49,
+			"count" : 2
+		}
+	},
+	{
+		"_id" : "United Kingdom",
+		"value" : {
+			"minBmi" : 71.25,
+			"avgBmi" : 69.14611111111111,
+			"maxBmi" : 977.8100000000001,
+			"count" : 18
+		}
+	},
+	{
+		"_id" : "United States",
+		"value" : {
+			"minBmi" : 64.51,
+			"avgBmi" : 70.15022522522526,
+			"maxBmi" : 15362.520000000008,
+			"count" : 222
+		}
+	},
+	{
+		"_id" : "Uruguay",
+		"value" : {
+			"minBmi" : 71.55,
+			"avgBmi" : 71.37538461538462,
+			"maxBmi" : 779.54,
+			"count" : 13
+		}
+	},
+	{
+		"_id" : "Uzbekistan",
+		"value" : {
+			"minBmi" : 67.7,
+			"avgBmi" : 69.61708333333333,
+			"maxBmi" : 1531.5199999999998,
+			"count" : 24
+		}
+	},
+	{
+		"_id" : "Vanuatu",
+		"value" : {
+			"minBmi" : 61.36,
+			"avgBmi" : 70.49333333333334,
+			"maxBmi" : 76.79,
+			"count" : 3
+		}
+	},
+	{
+		"_id" : "Venezuela",
+		"value" : {
+			"minBmi" : 75.16,
+			"avgBmi" : 72.20105263157895,
+			"maxBmi" : 2668.48,
+			"count" : 38
+		}
+	},
+	{
+		"_id" : "Vietnam",
+		"value" : {
+			"minBmi" : 74.07,
+			"avgBmi" : 69.84759036144575,
+			"maxBmi" : 5647.359999999998,
+			"count" : 83
+		}
+	},
+	{
+		"_id" : "Wallis and Futuna",
+		"value" : {
+			"minBmi" : 69.78,
+			"avgBmi" : 72.465,
+			"maxBmi" : 75.15,
+			"count" : 2
+		}
+	},
+	{
+		"_id" : "Western Sahara",
+		"value" : {
+			"minBmi" : 75.22,
+			"avgBmi" : 75.22,
+			"maxBmi" : 75.22,
+			"count" : 1
+		}
+	},
+	{
+		"_id" : "Yemen",
+		"value" : {
+			"minBmi" : 63.82,
+			"avgBmi" : 69.52363636363636,
+			"maxBmi" : 1789.18,
+			"count" : 33
+		}
+	},
+	{
+		"_id" : "Zambia",
+		"value" : {
+			"minBmi" : 273.31,
+			"avgBmi" : 70.2725,
+			"maxBmi" : 288.86999999999995,
+			"count" : 8
+		}
+	},
+	{
+		"_id" : "Zimbabwe",
+		"value" : {
+			"minBmi" : 69.02,
+			"avgBmi" : 69.95133333333334,
+			"maxBmi" : 908.96,
+			"count" : 15
+		}
+	}
+]

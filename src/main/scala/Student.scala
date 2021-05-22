@@ -1,6 +1,6 @@
 trait Student extends Osoba {
-  override def get_podatek(): Double = {
-    return 0
+  override def podatek: Double = {
+    0
   }
 
 }

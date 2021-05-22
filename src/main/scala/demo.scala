@@ -11,24 +11,33 @@ object demo {
     val numbers2 :List[Int] = List(-4,0,-3,-2,-1,0,1,2,3,0,4,5,0)
     val tpl = new Tuple3(1250, 5.10, "gruszka")
 
+    /*
+
     //1.zad1
-    loops(weekdaysList)
+    //println(loops1(weekdaysList))
+    //println(loops2(weekdaysList))
+    //println(loops3(weekdaysList))
+
 
     //1.zad2
-    println(recur1(weekdaysList, weekdaysList.length))
-    println(recur2(weekdaysList, weekdaysList.length))
+    println(recur1(weekdaysList))
+
+    println(recur2(weekdaysList))
 
     //1.zad3
-    println(recur3(weekdaysList, weekdaysList.length, ""))
+    println(recur3(weekdaysList, ""))
+
 
     //1.zad.4a
-    fold(weekdaysList)
+    println(fold1(weekdaysList))
+    println(fold2(weekdaysList))
+    println(fold3(weekdaysList))
 
     //1.zad.5
     println(productsMap.view.mapValues(_ * 0.9).toMap)
 
     //1.zad.6
-    writeTuple(tpl)
+    println(writeTuple(tpl))
 
     //1.zad.7
     //znajdz cenę owocy po kluczu
@@ -57,66 +66,64 @@ object demo {
     //2.zad.2
 
     var konto = new KontoBankowe()
-    konto.pokazStanKonta
+    println(konto.get_stanKonta())
     konto.wplata(200)
-    konto.pokazStanKonta
+    println(konto.get_stanKonta())
     konto.wyplata(150)
-    konto.pokazStanKonta
+    println(konto.get_stanKonta())
+    konto.wyplata(100)
+    println(konto.get_stanKonta())
 
     var konto2 = new KontoBankowe(2000)
-    konto2.pokazStanKonta
+    println(konto2.get_stanKonta())
     konto2.wplata(200)
-    konto2.pokazStanKonta
+    println(konto2.get_stanKonta())
     konto2.wyplata(150)
-    konto2.pokazStanKonta
-
+    println(konto2.get_stanKonta())
+    konto2.wyplata(100)
+    println(konto2.get_stanKonta())
 
 
     //2.zad.3
 
-    var osoba1 = new Powitanie_Osoba("Patric", "Black")
-    var osoba2 = new Powitanie_Osoba("Jimin", "Park")
-    var osoba3 = new Powitanie_Osoba("Jackson", "Wang")
-    var osoba4 = new Powitanie_Osoba("Cai", "Xukun")
-    var osoba5 = new Powitanie_Osoba("Taehyung", "Kim")
-    var osoba6 = new Powitanie_Osoba("Jack", "Smith")
-    var osoba7 = new Powitanie_Osoba("Jacek", "Kowalski")
-    var osoba8 = new Powitanie_Osoba("Adam", "Nowak")
+    var osoba1 = new Powitanie_Osoba("Jimin", "Park")
+    var osoba2 = new Powitanie_Osoba("Cai", "Xukun")
+    var osoba3 = new Powitanie_Osoba("Jack", "Smith")
+    var osoba4 = new Powitanie_Osoba("Jacek", "Kowalski")
 
     println(greetings(osoba1))
     println(greetings(osoba2))
     println(greetings(osoba3))
     println(greetings(osoba4))
-    println(greetings(osoba5))
-    println(greetings(osoba6))
-    println(greetings(osoba7))
-    println(greetings(osoba8))
 
 
 
     //2.zad.4
-    multiply(sqrtfunc, 2)
-    multiply(sqrtfunc, 4)
+    println(multiply(sqrtfunc, 2))
+    println(multiply(sqrtfunc, 4))
 
     //2.zad.5
 
-    var person1 = new Osoba() with Student
-    println(person1.get_podatek())
+    var person1 = new Osoba("Adam", "Adamski") with Student
+    println(person1.podatek)
 
-    var person2 = new Osoba() with Pracownik
-    person2.set_pensja(3500)
-    println(person2.get_podatek())
+    var person2 = new Osoba("Jack", "Smith") with Pracownik
+    person2.pensja = 4000
+    println(person2.podatek)
 
-    var person3 = new Osoba() with Nauczyciel
-    person3.set_pensja(3500)
-    println(person3.get_podatek())
-    var person4 = new Osoba() with Student with Pracownik
-    person4.set_pensja(3500)
-    println(person4.get_podatek()) //wyliczy podatek tak jak dla pracownika
+    var person3 = new Osoba("Alice", "Swan") with Nauczyciel
+    person3.pensja = 4000
+    println(person3.podatek)
 
-    var person5 = new Osoba() with Pracownik with Student
-    person5.set_pensja(3500)
-    println(person5.get_podatek()) //wyliczy podatek jak dla studenta - 0
+    var person4 = new Osoba("Cai", "Xukun") with Student with Pracownik
+    person4.pensja = 4000
+    println(person4.podatek) //wyliczy podatek tak jak dla pracownika
+
+    var person5 = new Osoba("Jimin", "Park") with Pracownik with Student
+    person5.pensja = 4000
+    println(person5.podatek) //wyliczy podatek jak dla studenta - 0
+
+*/
 
 
 
@@ -132,19 +139,21 @@ object demo {
 }
 
   //1.zad1
-  def loops(list1 : List[String]) : Unit = {
+  def loops1(list1 : List[String]) : String = {
     //1.zad.1a
-    var res0 :String = ""
-    for(x <- list1){
-      if(res0 == ""){
+    var res0: String = ""
+    for (x <- list1) {
+      if (res0 == "") {
         res0 += x
       }
-      else{
+      else {
         res0 += ("," + x)
       }
     }
-    println(res0)
+    return res0
+  }
 
+  def loops2(list1 : List[String]) : String = {
     //1.zad.1b
     var res1 :String = ""
     for(x <- list1; if x.substring(0,1) == "p"){
@@ -155,8 +164,10 @@ object demo {
         res1 += ("," + x)
       }
     }
-    println(res1)
+    return res1
+  }
 
+  def loops3(list1 : List[String]) : String = {
     //1.zad.1c
     var x1 :Int= 0
     var res2 :String = ""
@@ -169,66 +180,76 @@ object demo {
       }
       x1+=1
     }
-    println(res2)
+    return res2
   }
+
 
   //1.zad.2a
-  def recur1(list1 : List[String], n: Int) : String = {
-
-    if(n == 1){
-      return list1(0)
+  def recur1(list1 : List[String], newList: List[String] = List.empty) : String = {
+    list1 match{
+      case Nil => loops1(newList.reverse)
+      case h :: list => recur1(list, h :: newList)
     }
-    (recur1(list1, n-1) + "," + list1(n-1) )
+
   }
-
   //1.zad.2b
-  def recur2(list1 : List[String], n: Int) : String = {
-    if(n == 1){
-      return list1(0)
+  def recur2(list1 : List[String], newList: List[String] = List.empty) : String = {
+    list1 match{
+      case Nil => loops1(newList)
+      case h :: list => recur2(list, h :: newList)
     }
-    (list1(n-1) + "," + recur2(list1, n-1)  )
 
   }
 
   //1.zad.3
-  def recur3(list1 : List[String], n: Int, res: String) : String = {
+  def recur3(list1 : List[String], res: String, newList: List[String] = List.empty) : String = {
 
-    if(n == 0){
-      return res
+    list1 match{
+      case Nil => loops1(newList.reverse)
+      case h :: list => recur3(list, res, h :: newList)
     }
-    (recur3(list1, n-1, res = if (n==1) list1(n-1)+ res else ","+list1(n-1)+ res))
+
   }
 
   //1.zad.4
-  def fold(list1 : List[String]) : Unit = {
+  def fold1(list1 : List[String]) : String = {
 
     //1.zad.4a
-    val res1 = list1.foldLeft(""){
-      (x, y) => if (y!=list1.last) x + y +"," else x + y
+    val res1 = list1.foldLeft("") {
+      (x, y) => if (y != list1.last) x + y + "," else x + y
     }
-    println(res1)
+    return res1
+  }
 
+  def fold2(list1 : List[String]) : String = {
     //1.zad.4b
     val res2 = list1.foldRight(""){
       (x, y) => if (x!=list1.head) "," +x + y else x + y
     }
-    println(res2)
+    return res2
 
+  }
+
+  def fold3(list1 : List[String]) : String = {
     //1.zad.4c
     val res3 = list1.foldLeft(""){
       (x, y) => if (y.substring(0,1)=="p") if (y!=list1.head) x + "," + y   else x + y else x
     }
 
-    println(res3)
+    return res3
 
   }
+
 
   //1.zad.6
-  def writeTuple(tpl : (Int, Double, String)) : Unit = {
+  def writeTuple(tpl : (Int, Double, String)) : String = {
 
-    tpl.productIterator.foreach(println)
+    var str: String = ""
+    tpl.productIterator.foreach(str += _ + "\n")
 
+    return str
   }
+
 
   //1.zad.8
   def removeZero(list1: List[Int], newList: List[Int] = List.empty): List[Int] = {
@@ -251,7 +272,7 @@ object demo {
   //1.zad.10
   def num(list1 : List[Int]) : List[Int] = {
 
-    (list1.filter(x => x > -5 && x < 12)).map(x => x.abs)
+    (list1.filter(x => x >= -5 && x <= 12)).map(x => x.abs)
 
   }
 
@@ -267,58 +288,55 @@ object demo {
   }
 
   //2.zad.2
-  class KontoBankowe(val stanKonta : Int){
+  class KontoBankowe(){
 
-    var wplaty : Int = 0
-    var wyplaty : Int = 0
+    private var stanKonta: Double = 0
 
-    def this() = {
-      this(0)
+    def this(n: Double) = {
+      this()
+      stanKonta = n
     }
 
-    def wplata(suma : Int): Unit ={
-      wplaty += suma
+    def get_stanKonta(): Double= stanKonta
+
+    def wplata(x: Double): Unit = {
+      stanKonta += x
     }
 
-    def wyplata(suma : Int): Unit ={
-      wyplaty += suma
-    }
-
-    def pokazStanKonta: Unit ={
-      var nowyStanKonta = stanKonta + wplaty - wyplaty
-      println(nowyStanKonta)
+    def wyplata(x : Double): Unit = {
+      if (x <= stanKonta){
+        stanKonta -= x
+      }else{
+        println("Podana kwota wypłaty jest większa niz dostępny stan konta")
+      }
     }
 
   }
 
   //2.zad.3
-  class Powitanie_Osoba(val imie: String, val nazwisko: String)
+  case class Powitanie_Osoba(val imie: String, val nazwisko: String)
 
-  def greetings(osoba : Powitanie_Osoba) : String = {
-
-    osoba.nazwisko match {
-      case "Black" | "Smith" => "Hello, " + osoba.imie + " " + osoba.nazwisko
-      case "Park" | "Kim" => "Annyeong, " + osoba.imie + " " + osoba.nazwisko
-      case "Wang" | "Xukun" => "Ni hao, " + osoba.imie + " " + osoba.nazwisko
-      case x => "Witaj, " + osoba.imie + " " + osoba.nazwisko
+  def greetings(osoba : Powitanie_Osoba) : String = osoba match {
+      case Powitanie_Osoba("Jack","Smith")  => "Hello, "+ osoba.imie + " "+ osoba.nazwisko
+      case Powitanie_Osoba("Jimin","Park") => "Annyeong, "+ osoba.nazwisko + " "+ osoba.imie
+      case Powitanie_Osoba("Cai","Xukun") => "Ni hao, "+ osoba.imie + " "+ osoba.nazwisko
+      case _ => "Witaj, " + osoba.imie + " "+ osoba.nazwisko
 
     }
-  }
+
 
   //2.zad.4
   def sqrtfunc(num : Int) : Int = {
     num * num
   }
 
-  def multiply(f: (Int) => Int, num : Int) : Unit = {
+  def multiply(f: (Int) => Int, num : Int) : Int = {
     var x = 0
     var res : Int = num
 
-    while(x<3){
-      res = f(res)
-      x+=1
-    }
-    println(res)
+    res = f(f(f(res)))
+
+    return res
 
   }
 }
