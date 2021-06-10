@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVs59MCEMIpTImMfKUHjf7BZfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s14014>; rel="up"
+Last-Modified: Thu, 10 Jun 2021 19:09:37 GMT
+ETag: "57nKUFxkYKZ7HYMELgWgcL"
+Date: Thu, 10 Jun 2021 19:10:37 GMT
+Content-Type: application/json
+Content-Length: 29
+
+{"title": "Wichrowe Wzgorza"}

@@ -1,0 +1,125 @@
+﻿[
+  {
+    "p": {
+"start": {
+"identity": 25,
+"labels": [
+          "town"
+        ],
+"properties": {
+"name": "Darjeeling"
+        }
+      },
+"end": {
+"identity": 27,
+"labels": [
+          "peak"
+        ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 25,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Darjeeling"
+            }
+          },
+          "relationship": {
+"identity": 39,
+"start": 25,
+"end": 24,
+"type": "PublicTransport",
+"properties": {
+"name": "Darjeeling-Rimbik",
+"winter": "true",
+"distance": 15,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 24,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 24,
+"labels": [
+              "town"
+            ],
+"properties": {
+"name": "Rimbik"
+            }
+          },
+          "relationship": {
+"identity": 42,
+"start": 24,
+"end": 26,
+"type": "trek",
+"properties": {
+"name": "Rimbik-BhikeBhanja",
+"winter": "true",
+"distance": 18,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 26,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 26,
+"labels": [
+              "village"
+            ],
+"properties": {
+"name": "BhikeBhanja"
+            }
+          },
+          "relationship": {
+"identity": 43,
+"start": 26,
+"end": 27,
+"type": "trek",
+"properties": {
+"name": "BhikeBhanja-Sandakphu",
+"winter": "true",
+"distance": 4,
+"summer": "true"
+            }
+          },
+          "end": {
+"identity": 27,
+"labels": [
+              "peak"
+            ],
+"properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+"length": 3.0
+    }
+  }
+]

@@ -1,0 +1,42 @@
+1.1.
+curl -i –XPUT -H "Content-Type: application/json" -d "{\"title\": \"Ekstremista\", \"author\": \"Remigiusz Mroz\", \"year\": 2021, \"pages\": 464, \"isbn\": \"978-83-8195-478-5\"}"  http://localhost:8098/buckets/s14014/keys/978-83-8195-478-5
+
+1.2.
+curl -i –XPUT -H "Content-Type: application/json" -d "{\"title\": \"Perswazje\", \"author\": \"Jane Austen\", \"year\": 2020, \"pages\": 254, \"isbn\": \"978-83-813-9627-1\"}"  http://localhost:8098/buckets/s14014/keys/978-83-813-9627-1
+
+1.2.
+curl -i –XPUT -H "Content-Type: application/json" -d "{\"title\": \"Duma i uprzedzenie\", \"author\": \"Jane Austen\", \"year\": 2009, \"pages\": 304, \"isbn\": \"978-83-7648-965-0\"}"  http://localhost:8098/buckets/s14014/keys/978-83-7648-965-0
+
+1.4.
+curl -i –XPUT -H "Content-Type: application/json" -d "{\"title\": \"Emma\", \"author\": \"Jane Austen\", \"year\": 2020, \"pages\": 480, \"isbn\": \"978-83-8139-591-5\"}"  http://localhost:8098/buckets/s14014/keys/978-83-8139-591-5
+
+1.5.
+curl -i –XPUT -H "Content-Type: application/json" -d "{\"title\": \"Rozwazna i romantyczna\", \"author\": \"Jane Austen\", \"year\": 2019, \"pages\": 350, \"isbn\": \"978-83-813-9353-9\"}"  http://localhost:8098/buckets/s14014/keys/978-83-813-9353-9
+
+
+2.
+curl -i http://localhost:8098/buckets/s14014/keys/978-83-8139-591-5
+
+3.
+curl -i –XPUT -H "Content-Type: application/json" -d "{\"title\": \"Perswazje\", \"author\": \"Jane Austen\", \"year\": 2020, \"pages\": 254, \"isbn\": \"978-83-813-9627-1\", \"pubHouse\": \"Swiat Ksiazki\"}"  http://localhost:8098/buckets/s14014/keys/978-83-813-9627-1
+
+4.
+curl -i –XPUT -H "Content-Type: application/json" -d "{\"title\": \"Ekstremista\", \"author\": \"Remigiusz Mroz\", \"year\": 2021, \"isbn\": \"978-83-8195-478-5\"}"  http://localhost:8098/buckets/s14014/keys/978-83-8195-478-5
+
+5.
+curl -i –XPUT -H "Content-Type: application/json" -d "{\"title\": \"Rozwazna i romantyczna\", \"author\": \"Jane Austen\", \"year\": 2019, \"pages\": 350, \"isbn\": \"978-83-813-9353-9\"}"  http://localhost:8098/buckets/s14014/keys/978-83-813-9353-9
+
+6.
+curl -i -XDELETE http://localhost:8098/buckets/s14014/keys/978-83-8195-478-5
+
+7.
+curl -i http://localhost:8098/buckets/s14014/keys/978-83-8195-478-5
+
+8.
+curl -i –XPOST -H "Content-Type: application/json" -d "{\"title\": \"Wichrowe Wzgorza\"}"  http://localhost:8098/buckets/s14014/keys
+
+9.
+curl -i http://localhost:8098/buckets/s14014/keys/XNMNOqCGdkiaeNGA6Q6R58TNGym
+
+10.
+curl -i -XDELETE http://localhost:8098/buckets/s14014/keys/XNMNOqCGdkiaeNGA6Q6R58TNGym
