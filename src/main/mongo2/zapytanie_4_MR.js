@@ -1,9 +1,9 @@
 var mapF4 = function(){
     var key = this.nationality;
     var value = {
-        minBmi: parseFloat(this.weight),
-        avgBmi: parseFloat(this.weight),
-        maxBmi: parseFloat(this.weight),
+        minBmi: (parseFloat(this.weight))/(parseFloat(this.height)*parseFloat(this.height)/10000),
+        avgBmi: (parseFloat(this.weight))/(parseFloat(this.height)*parseFloat(this.height)/10000),
+        maxBmi: (parseFloat(this.weight))/(parseFloat(this.height)*parseFloat(this.height)/10000),
         count: 1
     };
     return emit(key, value);
@@ -11,10 +11,12 @@ var mapF4 = function(){
 
 var reduceF4 = function(key, values){
     var bmi = values.map(values => values.avgBmi);
+    var bmi1 = values.map(values => values.minBmi);
+    var bmi2 = values.map(values => values.maxBmi);
     return{
-        minBmi: Math.min.apply(Math, bmi),
+        minBmi: Math.min.apply(Math, bmi1),
         avgBmi: Array.sum(bmi),
-        maxBmi: Math.max.apply(Math, bmi),
+        maxBmi: Math.max.apply(Math, bmi2),
         count: Array.sum(values.map(x=> x.count))
     };
 };
