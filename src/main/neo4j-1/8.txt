@@ -1,1 +1,0 @@
-MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movie)<-[:ACTED_IN]-(keanu:Person {name: "Keanu Reeves"}) RETURN  movie.title

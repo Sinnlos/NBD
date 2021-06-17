@@ -1,0 +1,9 @@
+1. MATCH (Darjeeling:town {name:"Darjeeling"}),(Sandakphu:peak {name: "Sandakphu"}), p=shortestPAth((Darjeeling)-[*]-(Sandakphu)) RETURN p
+
+2. MATCH (Darjeeling:town {name:"Darjeeling"}),(Sandakphu:peak {name: "Sandakphu"}), p=shortestPath((Darjeeling)-[*]-(Sandakphu))
+   WHERE ALL (path IN relationships(p) WHERE path.winter = 'true') RETURN p
+
+3. MATCH p=(Darjeeling:town {name:"Darjeeling"})-[*..5]-(Sandakphu:peak {name: "Sandakphu"}) WITH [path IN relationships(p) | path.distance] AS d, p
+   RETURN p, reduce(total=0, number in d | total + number) AS distance ORDER BY distance ASC
+
+4. MATCH (f:Flight)-[:ORIGIN]->(a:Airport) RETURN a, count(a) as a_count ORDER BY a_count DESC

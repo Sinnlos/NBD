@@ -1,1 +1,0 @@
-MATCH (Darjeeling:town {name:"Darjeeling"}),(Sandakphu:peak {name: "Sandakphu"}), p=shortestPAth((Darjeeling)-[*]-(Sandakphu)) RETURN p

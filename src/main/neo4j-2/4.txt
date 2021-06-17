@@ -1,1 +1,0 @@
-MATCH (f:Flight)-[:ORIGIN]->(a:Airport) RETURN a, count(a) as a_count ORDER BY a_count DESC

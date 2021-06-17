@@ -1,2 +1,0 @@
-MATCH p=(Darjeeling:town {name:"Darjeeling"})-[*..5]-(Sandakphu:peak {name: "Sandakphu"}) WITH [path IN relationships(p) | path.distance] AS d, p
-RETURN p, reduce(total=0, number in d | total + number) AS distance ORDER BY distance ASC

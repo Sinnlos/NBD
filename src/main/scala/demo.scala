@@ -14,9 +14,9 @@ object demo {
 
 
     //1.zad1
-    //println(loops1(weekdaysList))
-    //println(loops2(weekdaysList))
-    //println(loops3(weekdaysList))
+    println(loops1(weekdaysList))
+    println(loops2(weekdaysList))
+    println(loops3(weekdaysList))
 
 
     //1.zad2
